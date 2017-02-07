@@ -9,16 +9,18 @@
   <form method="get" action="#null">
     <ol>
       <li id="input-email">
-      
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" id="email" placeholder="your@email.com" pattern="^.+@.+$" />
       </li>
       <li id="input-name">
-      
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" id="name" placeholder="Ex. Joe Biden" />
       </li>
       <li id="input-date">
-      
+        <label for="date">Birth Date:</label>
+        <input type="date" name="date" id="date" placeholder="MM/DD/YYYY" pattern="\d{1,2}/\d{1,2}/\d{4}" />
       </li>
   </form>
-  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
 <body>
