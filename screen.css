@@ -8,3 +8,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 
+html {
+  font-size: 1.2em;  /* 19.2px @ 16px/em */
+  line-height: 1.44em;  /* 27.648px @ 19.2px/em */
+  text-align: center; 
+}
+h1 {
+  font-size: 1.44em;  /* 27.648px @ 19.2px/em */
+  line-height: 1.728em;  /* 47.775px @ 27.648em/px */           
+  font-weight: bold;
+}
