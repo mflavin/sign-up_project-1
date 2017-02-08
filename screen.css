@@ -7,14 +7,35 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
+/* Minor Thirds scale */
 
 html {
   font-size: 1.2em;  /* 19.2px @ 16px/em */
   line-height: 1.44em;  /* 27.648px @ 19.2px/em */
-  text-align: center; 
 }
 h1 {
   font-size: 1.44em;  /* 27.648px @ 19.2px/em */
   line-height: 1.728em;  /* 47.775px @ 27.648em/px */           
   font-weight: bold;
+  text-align: center;
+}
+p {
+  padding-bottom: 1.44em;  /* 27.648px @ 19.2px/em */
+  text-align: center;
+}
+label {
+  margin-left: 3.45em;  /* 66.24px @ 19.2px/em */
+}
+input {
+  box-sizing: border-box;
+  display: block;
+  width: 56%;
+  margin-left: 5em;
+  margin-top: 0.6em;  /* */
+  margin-bottom: 1.44em;  /* */
+}
+#submit {
+  margin-left: 6em;  /* */
+  width: 40%;
+  margin-left: 7em;
 }
