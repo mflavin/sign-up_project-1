@@ -28,4 +28,11 @@ jQuery(function($) {
       $('#input-name label').removeClass('hide');
     }
   });
+  $('#submit').on('click', function() {
+    $('.ty').addClass('done');
+    $('#input-email').addClass('done');
+    $('#input-name').addClass('done');
+    $('#input-date').addClass('done');
+    $('#submit').addClass('done');
+  });
 });
