@@ -58,9 +58,9 @@ input {
   left: 4px;
   position: absolute;
 }
-#input-email label.active, 
-#input-name label.active,
-#input-date label.active {
+#input-email label.hide, 
+#input-name label.hide,
+#input-date label.hide {
   left: -6000px;
 }
 #submit {
