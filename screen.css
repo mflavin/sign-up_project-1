@@ -13,6 +13,7 @@ html {
   font-size: 1.2em;  /* 19.2px @ 16px/em */
   line-height: 1.44em;  /* 27.648px @ 19.2px/em */
   background-color: rgb(103, 74, 68);
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; 
 }
 h1 {
   font-size: 1.44em;  /* 27.648px @ 19.2px/em */
