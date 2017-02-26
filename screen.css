@@ -8,7 +8,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 /* Minor Thirds scale */
-
 html {
   font-size: 1.2em;  /* 19.2px @ 16px/em */
   line-height: 1.44em;  /* 27.648px @ 19.2px/em */
@@ -34,6 +33,9 @@ p {
   color: rgb(0,0,0,0.73);
   background-color: rgb(72, 43, 36);
 }
+.ty {
+  background-color: rgb(103, 74, 68);
+}
 label {
   margin-left: 20.7%;  /* 20.7% 66.24px/320px -- 3.45em @ 66.24px @ 19.2px/em */
   color: rgb(0,0,0,0.64);
@@ -47,6 +49,12 @@ input {
   margin-bottom: 10.76%;  /* 5.76% 27.648px/480px -- 1.44em @ 27.648px @ 19.2px */ /* NEEDS CHANGING */
   background-color: #cfcac8;
 }
+#submit {
+  width: 40%;
+  margin-left: 28.9%;  /* 7em */
+}
+
+/* ===== STATE STYLES ===== */
 #input-email, 
 #input-name,
 #input-date {
@@ -56,14 +64,30 @@ input {
 #input-name label,
 #input-date label {
   left: 4px;
-  position: absolute;
+  position: absolute; 
 }
 #input-email label.hide, 
 #input-name label.hide,
 #input-date label.hide {
   left: -6000px;
 }
-#submit {
-  width: 40%;
-  margin-left: 28.9%;  /* 7em */
+#input-email.done, 
+#input-name.done,
+#input-date.done {
+  left: -6000px;
+  position: relative;
+}
+.ty {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+}
+.ty.done {
+  top: 100px;
+}
+#submit.done {
+  left: -6000px;
+  position: relative;
 }
