@@ -16,7 +16,9 @@ html {
 }
 h1 {
   font-size: 1.44em;  /* 27.648px @ 19.2px/em */
-  line-height: 1.728em;  /* 47.775px @ 27.648em/px */           
+  line-height: 1.728em;  /* 47.775px @ 27.648em/px */ 
+  padding-top: 0.5em;
+  padding-bottom: 0.76em;
   font-weight: bold;
   text-align: center;
   color: rgb(0,0,0,0.87);
@@ -24,6 +26,7 @@ h1 {
 }
 p {
   padding-bottom: 1.44em;  /* 27.648px @ 19.2px/em */
+  padding-top: 0.76em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   text-align: center;
@@ -40,8 +43,24 @@ input {
   width: 56%;
   margin-left: 20.8%;  /* 5em */
   margin-top: 2.4%;  /* 2.4% 11.52px/480px -- 0.6em @ 11.52px @ 19.2px */
-  margin-bottom: 5.76%;  /* 5.76% 27.648px/480px -- 1.44em @ 27.648px @ 19.2px */
+  margin-bottom: 10.76%;  /* 5.76% 27.648px/480px -- 1.44em @ 27.648px @ 19.2px */ /* NEEDS CHANGING */
   background-color: #cfcac8;
+}
+#input-email, 
+#input-name,
+#input-date {
+  position: relative;
+}
+#input-email label, 
+#input-name label,
+#input-date label {
+  left: 4px;
+  position: absolute;
+}
+#input-email label.active, 
+#input-name label.active,
+#input-date label.active {
+  left: -6000px;
 }
 #submit {
   width: 40%;
