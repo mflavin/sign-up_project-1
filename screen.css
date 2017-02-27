@@ -78,14 +78,16 @@ input {
   position: relative;
 }
 .ty {
-  height: 100%;
-  width: 100%;
   display: flex;
-  position: fixed;
-  align-items: center;
+  position: relative;
+  left: -600px;
+  margin-bottom: -125px;
 }
 .ty.done {
-  top: 100px;
+  display: flex;
+  position: relative;
+  left: 0px;
+  top: 50px;
 }
 #submit.done {
   left: -6000px;
