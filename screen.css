@@ -93,3 +93,14 @@ input {
   left: -6000px;
   position: relative;
 }
+
+/* ===== Media Queries ===== */
+@media screen and (min-width: 383px) {
+  input {
+    margin-top: 9.8%;
+  }
+}
+
+@media screen and (min-width: 572px) {
+
+}
