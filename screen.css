@@ -60,6 +60,12 @@ input {
 #input-date {
   position: relative;
 }
+#input-email.done, 
+#input-name.done,
+#input-date.done {
+  left: -6000px;
+  position: relative;
+}
 #input-email label, 
 #input-name label,
 #input-date label {
@@ -70,12 +76,6 @@ input {
 #input-name label.hide,
 #input-date label.hide {
   left: -6000px;
-}
-#input-email.done, 
-#input-name.done,
-#input-date.done {
-  left: -6000px;
-  position: relative;
 }
 .ty {
   display: flex;
