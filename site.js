@@ -28,7 +28,7 @@ jQuery(function($) {
       $('#input-name label').removeClass('hide');
     }
   });
-  $('#submit').on('click', function() {
+  $('#submit').on('focus', function() {
     $('.ty').addClass('done');
     $('#input-email').addClass('done');
     $('#input-name').addClass('done');
