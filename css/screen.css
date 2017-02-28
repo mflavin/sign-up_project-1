@@ -109,10 +109,11 @@ img.bat {
   html {
     font-size: 1.44em;
     line-height: 1.728em;
-    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   }
   p {
     padding-bottom: 0.8em;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   label {
     top: -5px;
@@ -120,14 +121,14 @@ img.bat {
   figure.left {
     display: block;
     position: absolute;
-    top: 6.09%;  /* 30px */
+    top: 15.408px;  /* 30px */
     left: 4.07%;  /* 20px */
   }
   figure.right {
     display: block;
     position: absolute;
-    top: 6.09%;  /* 30px */
-    left: 85.36%;  /* 420px */
+    top: 15.408px;  /* 30px */
+    left: 83.74%;  /* 412px */
   }
   img.bat {
     display: inline;
@@ -149,5 +150,32 @@ img.bat {
 }
 @media screen and (min-width: 777px) {
   /* ===== BASE STYLES ===== */
-  
+  html {
+    font-size: 1.728em;
+    line-height: 2.074em;
+  }
+  p {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  label {
+    top: -10px;
+  }
+  figure.left {
+    display: block;
+    position: absolute;
+    top: 19.5px;
+    left: 100px;
+  }
+  figure.right {
+    display: block;
+    position: absolute;
+    top: 19.5px;
+    left: 617px;
+  }
+  img.bat {
+    display: inline;
+    position: absolute;
+    top: 220px;
+  }
 }
