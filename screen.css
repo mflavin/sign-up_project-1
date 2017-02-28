@@ -84,7 +84,7 @@ input {
   display: flex;
   position: relative;
   left: -600px;
-  margin-bottom: -125px;
+  margin-top: -260px;
 }
 .ty.done {
   display: flex;
@@ -98,10 +98,8 @@ input {
 }
 
 /* ===== Media Queries ===== */
-@media screen and (min-width: 383px) {
-  input {
-    margin-top: 9.8%;
-  }
+@media screen and (min-width: 491px) {
+  
 }
 
 @media screen and (min-width: 572px) {
