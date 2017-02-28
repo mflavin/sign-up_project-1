@@ -97,6 +97,10 @@ input {
   left: -6000px;
   position: relative;
 }
+figure.left,
+figure.right {
+  display: none;
+}
 
 /* ===== Media Queries ===== */
 @media screen and (min-width: 492px) {
@@ -119,6 +123,18 @@ input {
   #input-date,
   #submit  {
     margin-top: -4%;
+  }
+  figure.left {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+  figure.right {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 420px;
   }
 }
 @media screen and (min-width: 777px) {
