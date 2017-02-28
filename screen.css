@@ -27,7 +27,7 @@ h1 {
 p {
   padding-bottom: 1.44em;  /* 27.648px @ 19.2px/em */
   padding-top: 0.76em;
-  padding-left: 0.5em;
+  padding-left: 0.75em;
   padding-right: 0.5em;
   text-align: center;
   color: rgb(0,0,0,0.73);
@@ -75,7 +75,7 @@ input {
 #input-date label {
   position: absolute; 
 }
-#input-email label.hide, 
+#input-email label., 
 #input-name label.hide,
 #input-date label.hide {
   left: -6000px;
@@ -83,14 +83,15 @@ input {
 .ty {
   display: flex;
   position: relative;
-  left: -600px;
+  left: -6000px;
   margin-top: -260px;
 }
 .ty.done {
   display: flex;
   position: relative;
   left: 0px;
-  top: 50px;
+  padding-left: 3.3em;
+  padding-right: 3.3em;
 }
 #submit.done {
   left: -6000px;
@@ -98,10 +99,29 @@ input {
 }
 
 /* ===== Media Queries ===== */
-@media screen and (min-width: 491px) {
-  
+@media screen and (min-width: 492px) {
+  /* ===== BASE STYLES ===== */
+  html {
+    font-size: 1.44em;
+    line-height: 1.728em;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  }
+  p {
+    padding-bottom: 0.8em;
+  }
+  label {
+    top: -5px;
+  }
+  #input-email {
+    margin-top: 5%;
+  }
+  #input-name,
+  #input-date,
+  #submit  {
+    margin-top: -4%;
+  }
 }
-
-@media screen and (min-width: 572px) {
-
+@media screen and (min-width: 777px) {
+  /* ===== BASE STYLES ===== */
+  
 }
