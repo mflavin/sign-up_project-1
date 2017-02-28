@@ -75,7 +75,7 @@ input {
 #input-date label {
   position: absolute; 
 }
-#input-email label., 
+#input-email label.hide, 
 #input-name label.hide,
 #input-date label.hide {
   left: -6000px;
@@ -84,7 +84,7 @@ input {
   display: flex;
   position: relative;
   left: -6000px;
-  margin-top: -260px;
+  margin-top: -320px;
 }
 .ty.done {
   display: flex;
@@ -98,7 +98,8 @@ input {
   position: relative;
 }
 figure.left,
-figure.right {
+figure.right,
+img.bat {
   display: none;
 }
 
@@ -116,6 +117,27 @@ figure.right {
   label {
     top: -5px;
   }
+  figure.left {
+    display: block;
+    position: absolute;
+    top: 6.09%;  /* 30px */
+    left: 4.07%;  /* 20px */
+  }
+  figure.right {
+    display: block;
+    position: absolute;
+    top: 6.09%;  /* 30px */
+    left: 85.36%;  /* 420px */
+  }
+  img.bat {
+    display: inline;
+    position: absolute;
+    width: 10%;
+    top: 169px; 
+  }
+  .ty {
+    bottom: 45px;
+  }
   #input-email {
     margin-top: 5%;
   }
@@ -123,18 +145,6 @@ figure.right {
   #input-date,
   #submit  {
     margin-top: -4%;
-  }
-  figure.left {
-    display: block;
-    position: absolute;
-    top: 30px;
-    left: 20px;
-  }
-  figure.right {
-    display: block;
-    position: absolute;
-    top: 30px;
-    left: 420px;
   }
 }
 @media screen and (min-width: 777px) {
