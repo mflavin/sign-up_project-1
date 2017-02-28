@@ -39,7 +39,7 @@ p {
 label {
   font-size: 0.8em;
   padding-left: 2.5px;
-  margin-left: 20.7%;  /* 20.7% 66.24px/320px -- 3.45em @ 66.24px @ 19.2px/em */
+  margin-left: 20.7%;  /* 66.24px/320px */
   color: rgb(0,0,0,0.64);
 }
 input {
@@ -48,9 +48,9 @@ input {
   font-size: 0.8em;
   display: block;
   width: 56%;
-  margin-left: 20.8%;  /* 5em */
-  margin-top: 2.4%;  /* 2.4% 11.52px/480px -- 0.6em @ 11.52px @ 19.2px */
-  margin-bottom: 10.76%;  /* 5.76% 27.648px/480px -- 1.44em @ 27.648px @ 19.2px */ /* NEEDS CHANGING */
+  margin-left: 20.8%;  /* 99.84px/480px */
+  margin-top: 2.4%;  /* 11.52px/480px */
+  margin-bottom: 10.76%;  /* 51.648px/480px */
   background-color: #cfcac8;
 }
 #submit {
@@ -97,9 +97,11 @@ input {
   left: -6000px;
   position: relative;
 }
-figure.left,
-figure.right,
-img.bat {
+img.left,
+img.right,
+img.bat,
+img.batman,
+img.robin {
   display: none;
 }
 
@@ -118,15 +120,17 @@ img.bat {
   label {
     top: -5px;
   }
-  figure.left {
+  img.left {
     display: block;
     position: absolute;
+    width: 12%;
     top: 15.408px;  /* 30px */
     left: 4.07%;  /* 20px */
   }
-  figure.right {
+  img.right {
     display: block;
     position: absolute;
+    width: 12%;
     top: 15.408px;  /* 30px */
     left: 83.74%;  /* 412px */
   }
@@ -155,19 +159,23 @@ img.bat {
     line-height: 2.074em;
   }
   p {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
   label {
     top: -10px;
+    margin-left: 21.7%;
   }
-  figure.left {
+  input {
+    margin-left: 21.8%;
+  }
+  img.left {
     display: block;
     position: absolute;
     top: 19.5px;
-    left: 100px;
+    left: 70px;
   }
-  figure.right {
+  img.right {
     display: block;
     position: absolute;
     top: 19.5px;
@@ -177,5 +185,24 @@ img.bat {
     display: inline;
     position: absolute;
     top: 220px;
+  }
+  img.batman {
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 37.5%;
+    left: 5px;
+  }
+  img.robin {
+   display: block; 
+   position: absolute;
+   width: 20%;
+   height: 37.5%;
+   top: 316px;
+   left: 617px;
+  }
+  #submit {
+    width: 35%;
+    margin-left: 31.9%;
   }
 }
