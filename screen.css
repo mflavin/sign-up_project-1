@@ -37,11 +37,15 @@ p {
   background-color: #FBE03E;
 }
 label {
+  font-size: 0.8em;
+  padding-left: 2.5px;
   margin-left: 20.7%;  /* 20.7% 66.24px/320px -- 3.45em @ 66.24px @ 19.2px/em */
   color: rgb(0,0,0,0.64);
 }
 input {
   box-sizing: border-box;
+  font-family: inherit;
+  font-size: 0.8em;
   display: block;
   width: 56%;
   margin-left: 20.8%;  /* 5em */
@@ -69,7 +73,6 @@ input {
 #input-email label, 
 #input-name label,
 #input-date label {
-  left: 4px;
   position: absolute; 
 }
 #input-email label.hide, 
