@@ -16,9 +16,9 @@ html {
 }
 h1 {
   font-size: 1.44em;  /* 27.648px @ 19.2px/em */
-  line-height: 1.728em;  /* 47.775px @ 27.648em/px */ 
-  padding-top: 0.5em;
-  padding-bottom: 0.76em;
+  line-height: 1.728em;  /* 47.775px @ 27.648px/em */ 
+  padding-top: 4.32%;  /* 13.824px/320px */
+  padding-bottom: 6.57%;  /* 21.01px/320px */
   font-weight: bold;
   text-align: center;
   color: rgb(0,0,0,0.87);
@@ -26,9 +26,9 @@ h1 {
 }
 p {
   padding-bottom: 1.44em;  /* 27.648px @ 19.2px/em */
-  padding-top: 0.76em;
-  padding-left: 0.75em;
-  padding-right: 0.5em;
+  padding-top: 4.56%;  /* 14.592px/320px */
+  padding-left: 4.5%;  /* 14.4px/320px */
+  padding-right: 3%;  /* 9.6px/320px */
   text-align: center;
   color: rgb(0,0,0,0.73);
   background-color: #F0CD0A;
@@ -37,25 +37,25 @@ p {
   background-color: #FBE03E;
 }
 label {
-  font-size: 0.8em;
-  padding-left: 2.5px;
+  font-size: 0.8em;  /* 15.26px @ 19.2px/em */
+  padding-left: 0.78125%;  /* 2.5px/320px */
   margin-left: 20.7%;  /* 66.24px/320px */
   color: rgb(0,0,0,0.64);
 }
 input {
   box-sizing: border-box;
   font-family: inherit;
-  font-size: 0.8em;
+  font-size: 0.8em;  /* 15.26px @ 19.2px/em */
   display: block;
   width: 56%;
-  margin-left: 20.8%;  /* 99.84px/480px */
-  margin-top: 2.4%;  /* 11.52px/480px */
-  margin-bottom: 10.76%;  /* 51.648px/480px */
+  margin-left: 20.8%;  /* 66.56px/320px */
+  margin-top: 2.4%;  /* 7.68px/320px */
+  margin-bottom: 10.76%;  /* 34.432px/320px */
   background-color: #cfcac8;
 }
 #submit {
   width: 40%;
-  margin-left: 28.9%;  /* 7em */
+  margin-left: 28.9%;  /* 92.48px/320px */
 }
 
 /* ===== STATE STYLES ===== */
@@ -84,14 +84,14 @@ input {
   display: flex;
   position: relative;
   left: -6000px;
-  margin-top: -320px;
+  margin-top: -220px;
 }
 .ty.done {
   display: flex;
   position: relative;
-  left: 0px;
-  padding-left: 3.3em;
-  padding-right: 3.3em;
+  left: 0;
+  padding-left: 19.8%;  /* 63.36px/320px */
+  padding-right: 19.8%;  /* 63.36px/320px */
 }
 #submit.done {
   left: -6000px;
@@ -109,47 +109,48 @@ img.robin {
 @media screen and (min-width: 492px) {
   /* ===== BASE STYLES ===== */
   html {
-    font-size: 1.44em;
-    line-height: 1.728em;
+    font-size: 1.44em;  /* 23.04px @ 16px/em*/
+    line-height: 1.728em;  /* 39.81px @ 23.04px/em */
   }
   p {
-    padding-bottom: 0.8em;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 0.8em;  /* 18.432px @ 23.04px/em */
+    padding-left: 0.868em;  /* 20px @ 23.04px/em */
+    padding-right: 0.868em;  /* 20px @ 23.04px/em */
   }
   label {
-    top: -5px;
+    top: -10.16%;
   }
   img.left {
     display: block;
     position: absolute;
     width: 12%;
-    top: 15.408px;  /* 30px */
-    left: 4.07%;  /* 20px */
+    top: 6.25%;  /* 30px/480px */
+    left: 4.07%;  /* 20px/492px */
   }
   img.right {
     display: block;
     position: absolute;
     width: 12%;
-    top: 15.408px;  /* 30px */
-    left: 83.74%;  /* 412px */
+    top: 6.25%;  /* 30px/480px */
+    left: 83.74%;  /* 412px/492px */
   }
   img.bat {
-    display: inline;
+    display: block;
     position: absolute;
     width: 10%;
-    top: 169px; 
+    top: 38.33%;  /* 184px/480px */ 
+    left: 83.84%;  /* 412px/492px  */
   }
   .ty {
-    bottom: 45px;
+    top: -3.689em;  /* -85px @ 23.04px/em */
   }
   #input-email {
-    margin-top: 5%;
+    margin-top: 5%;  /* 24px/480px */
   }
   #input-name,
   #input-date,
   #submit  {
-    margin-top: -4%;
+    margin-top: -4%;  /* -19.2px/480px */
   }
 }
 @media screen and (min-width: 777px) {
