@@ -75,16 +75,15 @@ input {
 #input-date label {
   position: absolute; 
 }
-#input-email label.hide, 
+#input-email label., 
 #input-name label.hide,
 #input-date label.hide {
   left: -6000px;
 }
 .ty {
-  display: flex;
-  position: relative;
+  display: display;
+  position: absolute;
   left: -6000px;
-  margin-top: -220px;
 }
 .ty.done {
   display: flex;
@@ -124,33 +123,28 @@ img.robin {
     display: block;
     position: absolute;
     width: 12%;
-    top: 6.25%;  /* 30px/480px */
+    top: 1.302em;  /* 30px @ 23.04px/em */
     left: 4.07%;  /* 20px/492px */
   }
   img.right {
     display: block;
     position: absolute;
     width: 12%;
-    top: 6.25%;  /* 30px/480px */
+    top: 1.302em;  /* 30px @ 23.04px/em */
     left: 83.74%;  /* 412px/492px */
   }
   img.bat {
     display: inline-block;
     position: absolute;
-    font-size: inherit;
     height: 1em;
-    vertical-align: text-bottom;
-  }
-  .ty {
-    top: -3.689em;  /* -85px @ 23.04px/em */
   }
   #input-email {
-    margin-top: 5%;  /* 24px/480px */
+    margin-top: 24px;
   }
   #input-name,
   #input-date,
   #submit  {
-    margin-top: -4%;  /* -19.2px/480px */
+    margin-top: -19.2px;
   }
 }
 @media screen and (min-width: 777px) {
@@ -160,8 +154,8 @@ img.robin {
     line-height: 2.074em;  /* 57.342px @ 27.648px/em */
   }
   p {
-    padding-left: 2.532em;  /* 70px @ 27.648px/em */
-    padding-right: 2.532em;  /* 70px @ 27.648px/em */
+    padding-left: 9.009%;  /* 70px/777px */
+    padding-right: 9.009%;  /* 70px/777px */
   }
   label {
     top: -25%;
@@ -173,20 +167,19 @@ img.robin {
   img.left {
     display: block;
     position: absolute;
-    top: 3.25%;  /* 19.5px/600px */
+    top: 0.705em;  /* 19.5px @ 27.648px/em */
     left: 9%;  /* 70px/777px */
   }
   img.right {
     display: block;
     position: absolute;
-    top: 3.25%;  /* 19.5px/600px */
+    top: 0.705em;  /* 19.5px @ 27.648px/em */
     left: 79.4%;  /* 617px/777px */
   }
   img.bat {
     display: inline-block;
     position: absolute;
-    top: 265px;
-    left: 69.11%;  /* 537px/777px */
+    height: 1em;
   }
   img.batman {
     display: block;
@@ -195,12 +188,11 @@ img.robin {
     height: 37.5%;
   }
   img.robin {
-   display: block; 
-   position: absolute;
-   width: 20%;  /* 155.4px/777px */
-   height: 37.5%;
-   top: 366px;
-   left: 79.4%;  /* 617px/777px */
+    display: block; 
+    position: absolute;
+    width: 20%;  /* 155.4px/777px */
+    height: 37.5%;
+    left: 79.4%;  /* 617px/777px */
   }
   #submit {
     width: 35%;  /* 271.95px/777px */
