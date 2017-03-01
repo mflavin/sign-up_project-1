@@ -87,7 +87,7 @@ input {
 }
 .ty.done {
   display: flex;
-  position: relative;
+  position: absolute;
   left: 0;
   padding-left: 19.8%;  /* 63.36px/320px */
   padding-right: 19.8%;  /* 63.36px/320px */
