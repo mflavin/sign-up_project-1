@@ -75,7 +75,7 @@ input {
 #input-date label {
   position: absolute; 
 }
-#input-email label., 
+#input-email label.hide, 
 #input-name label.hide,
 #input-date label.hide {
   left: -6000px;
