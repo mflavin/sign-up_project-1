@@ -25,7 +25,7 @@ h1 {
   background-color: #BCA102;
 }
 p {
-  padding-bottom: 1.44em;  /* 27.648px @ 19.2px/em */
+  padding-bottom: 8.64%;  /* 27.648px/320px */
   padding-top: 4.56%;  /* 14.592px/320px */
   padding-left: 4.5%;  /* 14.4px/320px */
   padding-right: 3%;  /* 9.6px/320px */
@@ -56,16 +56,16 @@ input {
 input[type="checkbox"] {
   position: absolute;
   width: 0;
-  margin-top: -10px;
+  margin-top: -3.125%;  /* -10px/320px */
 }
 label[for="check"] {
   display: inline-block;
   margin: 0;
-  padding-left: 28.125%;  /* 90px */
-  padding-right: 21.875%;  /* 70px */
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: -30px;
+  padding-left: 28.125%;  /* 90px/320px */
+  padding-right: 21.875%;  /* 70px/320px */
+  padding-top: 3.125%;  /* 10px/320px */
+  padding-bottom: 3.125%;  /* 10px/320px */
+  margin-top: -9.375%;  /* -30px/320px */
 }
 #submit {
   width: 40%;
@@ -80,7 +80,8 @@ label[for="check"] {
 }
 #input-email.done, 
 #input-name.done,
-#input-date.done {
+#input-date.done,
+#check.done {
   left: -6000px;
   position: relative;
 }
@@ -108,7 +109,7 @@ label[for="check"] {
 }
 #submit.done {
   left: -6000px;
-  position: relative;
+  position: absolute;
 }
 img.left,
 img.right,
@@ -153,12 +154,12 @@ img.robin {
     height: 1em;
   }
   #input-email {
-    margin-top: 24px;
+    margin-top: 4.878%;  /* 24px/492px */
   }
   #input-name,
   #input-date,
   #submit  {
-    margin-top: -19.2px;
+    padding-top: -3.903%;  /* -19.2px/492px */
   }
 }
 @media screen and (min-width: 777px) {
