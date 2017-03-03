@@ -53,6 +53,20 @@ input {
   margin-bottom: 10.76%;  /* 34.432px/320px */
   background-color: #cfcac8;
 }
+input[type="checkbox"] {
+  position: absolute;
+  width: 0;
+  margin-top: -10px;
+}
+label[for="check"] {
+  display: inline-block;
+  margin: 0;
+  padding-left: 28.125%;  /* 90px */
+  padding-right: 21.875%;  /* 70px */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -30px;
+}
 #submit {
   width: 40%;
   margin-left: 28.9%;  /* 92.48px/320px */
