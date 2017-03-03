@@ -33,6 +33,7 @@ jQuery(function($) {
     $('#input-email').addClass('done');
     $('#input-name').addClass('done');
     $('#input-date').addClass('done');
+    $('#check').addClass('done');
     $('#submit').addClass('done');
   });
 });
